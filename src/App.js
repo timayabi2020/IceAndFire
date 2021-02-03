@@ -215,17 +215,20 @@ class App extends Component {
     this.setState({
       openCharacter: false,
     });
+    window.location.reload();
   }
 
   closeBookDialog() {
     this.setState({
       openBook: false,
     });
+    window.location.reload();
   }
   closeHouseDialog() {
     this.setState({
       openHouse: false,
     });
+    window.location.reload();
   }
   render() {
     return (
